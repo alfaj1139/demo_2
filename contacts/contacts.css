@@ -1,0 +1,347 @@
+
+nav{
+  text-align: center; 
+  background-color:black ;
+  font-size: 30px;
+  padding: 20px;
+    width: 1000px;
+    margin-left: 150px;
+
+
+}
+section{
+text-align: center;
+  background-color: red;
+  font-size: 20px;
+  padding-right: 400px;
+  margin-right: 50px;
+  margin-left: 350px;
+}
+
+ 
+
+
+
+
+
+aside{
+  width: 20%;
+  height: 250px;
+  padding-left: 3px;
+  margin-left:0px ;
+  margin-right:50px;
+  margin-left: 0px;
+
+  font-style: italic;
+  background-color: lightgray;
+
+}
+
+
+.bd{
+  background-color: gold;
+  width: 700px;
+  height: 100px;
+  
+  
+  
+
+
+}
+
+
+main{
+  padding-top: 0px;
+  padding-bottom: 100px; 
+  margin-top: 100px;
+  margin-bottom: 100px;
+  
+
+}
+
+
+
+footer{
+  text-align: center;
+  background-color: burlywood;
+  font-size: 20px;
+  padding-right: 300px;
+  padding-left: 300px;
+  margin-right: 250px;
+  margin-left: 250px;
+}
+
+
+
+
+
+
+
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background:#f0b27a;
+}
+
+
+.header h1 {
+  font-size: 20px;
+
+
+  }
+ 
+
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color:#212f3d;
+
+
+}
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+
+
+/* Add a card effect for articles */
+.card {
+  background-color:#8686AF;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #566573;
+  padding-left: 20px;
+}
+
+
+iframe{
+  width: 100%;
+  padding: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background:#566573;
+}
+
+/*world*/
+
+.world{
+ text-align: left;
+  font-size: 25px;
+
+}
+
+
+.tebal{
+  
+   text-align:center;
+   background: #ccc;
+   
+}
+
+.tebal table{
+   padding: 50px;
+  text-align: center;
+  font-size: 20px;
+  background-color: #3346;
+
+  margin-top: 10px;
+}
+
+
+
+
+/* Footer */
+.footer {
+  padding: 50px;
+  text-align: center;
+  background: #abb2b9 ;
+  margin-top: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
